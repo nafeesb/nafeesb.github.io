@@ -31,7 +31,7 @@ sudo apt update
 sudo apt-get install ruby2.6 ruby2.6-dev
 {% endhighlight %}
 
-Install bundler gem for the user
+Install bundler gem for the user. I am deliberately installing to the user, because I don't like the idea of installing a bunch of gems to the system.  However this means that we have to use some additional commandline arguments in subsequent steps.
 {% highlight shell %}
 gem install --user-install bundler 
 {% endhighlight %}
@@ -39,7 +39,34 @@ gem install --user-install bundler
 Add local gem executables to PATH
 {% highlight shell %}
 echo 'export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"' >> ~/.bashrc
+exec $SHELL
 {% endhighlight %}
+
+## Jekyll
+Jekyll does the work of creating the site. How it works with GitHub is explained in more detail in [Setting up a GitHub Pages site with Jekyll](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
+
+Go to the directory where you cloned the website repo.
+
+Modify `Gemfile` file to look like this:
+{% highlight ruby %}
+source "https://rubygems.org"
+gem 'github-pages', group: :jekyll_plugins
+{% endhighlight %}
+
+Install required packages, including Jekyll.
+```shell
+bundle install --path ~/.gem
+```
+
+## Ready to rock
+Run the local Jekyll preview.
+```shell
+bundle exec jekyll serve
+```
+You should be able to connect to http://127.0.0.1:4000 and see your website.
+
+## Publish
+Stage and commit your changes. Push to GitHub, and your website will be available in a few minutes.
 
 ## MathJax
 Follow the instructions in this blog entry: 
