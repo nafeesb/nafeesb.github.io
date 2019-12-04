@@ -1,11 +1,10 @@
 # Site settings
-title:          Nafees' DevLog
-description:    "Nafees' DevLog"
-#baseurl:        "/tale"
+title:          Nafees' Devlog
+description:    "Nafees' Devlog"
 url:            "https://nafeesb.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-153531604-1
 
 # Author
 author:
@@ -15,6 +14,7 @@ author:
 
 # Build settings
 markdown:       kramdown
+highlighter: rouge
 include:
   - _pages
 
@@ -28,14 +28,14 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jemoji
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec, vendor ]
 
 # Disqus (Set to your disqus id)
 disqus:         nafeesb
