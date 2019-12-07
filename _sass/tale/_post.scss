@@ -1,10 +1,11 @@
 .post {
   padding: 3rem 0;
 
-  &-info {
+  &-info { // author and date info
     color: $default-tint;
     letter-spacing: 0.5px;
     text-align: center;
+    font-size: 0.9rem;
 
     span {
       font-style: italic;
@@ -20,17 +21,17 @@
     text-align: center;
   }
 
-  &-line {
+  &-line { // block line below title
     border-top: 0.4rem solid $default-shade;
     display: block;
-    margin: 0 auto 3rem;
+    margin: 0rem auto 3rem;
     width: 4rem;
     font-family: $sans-serif;
   }
 
-  p {
+  p { // post content text
     font-family: $sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 1rem;
     text-align: justify;
   }
