@@ -14,8 +14,8 @@ footer,
 }
 
 .nav {
-  background-color: lightgrey;
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  background-color: $braves-blue;
+  box-shadow: 0px 7px 10px 5px $shadow-color;
   overflow: auto;
 
   &-container {
@@ -26,7 +26,7 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: $nav-text-color;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
@@ -40,9 +40,10 @@ footer,
   // navigation menu link
   &-item {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: $grey-4;
+    font-weight: 500;
     display: inline-block;
-    opacity: .8;
+    opacity: 0.8;
     padding: 0 2rem 0 0;
 
     &:last-child {
@@ -55,6 +56,7 @@ footer,
       opacity: 1;
     }
 
+    // expand underline on mouse hover
     &:hover .nav-uline,
     &:focus .nav-uline { 
       opacity: 1;
@@ -65,12 +67,13 @@ footer,
   // underline below nav links
   &-uline {
     @include transition(all .2s ease-out);
-    border-top: 0.1rem solid $default-color;
+    border-top: 0.1rem solid $nav-text-color;
     opacity: 0.8;
     display: block;
     width: 0rem;
   }
 
+  // unordered list
   ul {
     list-style-type: none;
     margin: 1rem 0 0;
@@ -79,8 +82,9 @@ footer,
   }
 
 
+  // URL
   a {
-    color: $default-color;
+    color: $nav-text-color;
     font-family: $sans-serif;
   }
 }

@@ -11,12 +11,16 @@ $white: #fff;
 $blue: #4a9ae1;
 $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
+$braves-blue: #13274F;
+$nav-text-color: #aaa;
 
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
+$post-font-size: 16px;
+
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

@@ -31,7 +31,7 @@
 
   p { // post content text
     font-family: $sans-serif;
-    font-size: 16px;
+    font-size: $post-font-size;
     margin: 0 0 1rem;
     text-align: justify;
   }

@@ -24,7 +24,7 @@ Commandlines with special characters and whitespace in paths need to be escaped 
     "fontSize": 10,
     "colorScheme": "One Half Dark",
     "hidden": false
-},
+}
 ```
 
 ### Keybindings
