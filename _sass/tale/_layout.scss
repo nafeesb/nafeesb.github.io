@@ -32,9 +32,43 @@ footer,
     padding-right: .2rem;
 
     &:hover,
-    &:focus {
+    &:focus { // dim when mouse hovers over title
       opacity: .6;
     }
+  }
+
+  // navigation menu link
+  &-item {
+    @include transition(all .2s ease-out);
+    color: $default-color;
+    display: inline-block;
+    opacity: .8;
+    padding: 0 2rem 0 0;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    // darken when mouse hovers over navigation links
+    &:hover,
+    &:focus { 
+      opacity: 1;
+    }
+
+    &:hover .nav-uline,
+    &:focus .nav-uline { 
+      opacity: 1;
+      width: 100%;
+    }
+  }
+
+  // underline below nav links
+  &-uline {
+    @include transition(all .2s ease-out);
+    border-top: 0.1rem solid $default-color;
+    opacity: 0.8;
+    display: block;
+    width: 0rem;
   }
 
   ul {
@@ -44,22 +78,6 @@ footer,
     text-align: center;
   }
 
-  li {
-    @include transition(all .2s ease-out);
-    color: $default-color;
-    display: inline-block;
-    opacity: .6;
-    padding: 0 2rem 0 0;
-
-    &:last-child {
-      padding-right: 0;
-    }
-
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
-  }
 
   a {
     color: $default-color;
