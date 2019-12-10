@@ -18,6 +18,11 @@ highlighter: rouge
 include:
   - _pages
 
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
 # Assets
 sass:
   sass_dir:     _sass

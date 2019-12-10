@@ -1,0 +1,68 @@
+.paper {
+  padding: 3rem 0;
+
+  &-info { // author and date info
+    color: $default-tint;
+    letter-spacing: 0.5px;
+    //text-align: center;
+    font-size: 0.9rem;
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  &-title {
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    text-align: left;
+  }
+
+  &-line { // block line below title
+    border-top: 2px solid $default-tint;
+    display: block;
+    margin: 10px 0px;
+    //margin: 0rem auto 3rem;
+    width: 10rem;
+    font-family: $sans-serif;
+  }
+
+  p { // post content text
+    font-family: $sans-serif;
+    font-size: $post-font-size;
+    margin: 0 0 1rem;
+    text-align: justify;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    margin: 0 auto 0.5rem;
+  }
+
+  img + em {
+    color: $default-tint;
+    display: block;
+    font-family: $sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: center;
+  }
+
+  // CSS for making emoji inline
+  img.emoji {
+    display: inline-block;
+    left: 0;
+    transform: none;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+  }
+}

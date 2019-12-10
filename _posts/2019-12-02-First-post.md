@@ -4,13 +4,14 @@ title: "Learning Something New: Jekyll"
 date: 2019-12-02
 categories: tech
 mathjax: true
+description: How to setup Jekyll for github pages on Windows 10 WSL.
 ---
-This post is about how I set up this Github hosted site using Jekyll on Windows 10.  I'm writing it because I could not find one single place that explained how to start from ground level.
+This post is about how I set up this Github hosted site using Jekyll on Windows 10.  Jekyll is not officially supported on Windows, but it's totally possible to get it to work.  I'm writing this up because I could not find one single place that explained how to start from ground level.
 
 ## The Plan
 1. Use Windows Subsystem for Linux (WSL) for development.
-1. Use the [Tale][tale-url] theme developed by Chester How.
-1. Support local preview with Jekyll.
+2. Use the [Tale][tale-url] theme developed by Chester How.
+3. Support local preview with Jekyll.
 
 ### WSL
 If you haven't already, enable WSL from a Powershell with administrator privileges.
@@ -69,7 +70,7 @@ You should be able to connect to http://127.0.0.1:4000 and see your website.
 Stage and commit your changes. Push to GitHub, and your website will be available in a few minutes.
 
 ## MathJax
-Follow the instructions in this blog entry: 
+If you want to render equations, you need MathJax. Follow the instructions in this blog entry: 
 [Adding MathJax to a GitHub Pages Jekyll Blog](http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html)
 
 [tale-url]: https://github.com/chesterhow/tale/

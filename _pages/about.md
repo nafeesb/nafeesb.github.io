@@ -1,6 +1,5 @@
 ---
 layout: default
-author: "Nafees"
 permalink: /about/
 ---
 ## // Nafees Bin Zafar
