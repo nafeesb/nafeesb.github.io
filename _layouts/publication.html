@@ -25,8 +25,11 @@ layout: default
     <h2>Abstract</h2>
     {{ content }}
 
-    {% if page.url or page.acmdl %}
+    {% if page.puburl or page.pdfurl or page.acmdl %}
     <h3>Links</h3>
+      {% if page.puburl %}
+        <div><a href="{{ page.puburl }}">Project page</a></div>
+      {% endif %}
       {% if page.pdfurl %}
         <div><a href="{{ page.pdfurl }}">Download paper</a></div>
       {% endif %}
