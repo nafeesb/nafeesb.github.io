@@ -17,21 +17,7 @@
     }
   }
 
-  &-time {
-    color: $default-tint;
-    font-family: $sans-serif;
-    letter-spacing: .5px;
-  }
-
-  &-author {
-    color: $default-tint;
-    font-family: $sans-serif;
-    letter-spacing: .5px;
-    font-size: 0.8rem;
-    margin: 0px 0 .5rem;
-  }
-
-  &-pubtitle {
+  &-title {
     color: $default-shade;
     display: block;
     font-family: $sans-serif;
@@ -41,14 +27,12 @@
     margin-bottom: 0px;
   }
 
-  &-title {
-    color: $default-shade;
-    display: block;
+  &-subtitle {
+    color: $default-tint;
     font-family: $sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    margin: .5rem 0;
-    //margin-bottom: 0px;
+    letter-spacing: .5px;
+    font-size: 0.8rem;
+    margin: 0px 0 .5rem;
   }
 
   &-line { // underline below post titles

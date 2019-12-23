@@ -64,4 +64,43 @@
     padding: 0;
     margin: 0;
   }
+
+  ol {
+    margin-top: -5px;
+  }
+  li {
+    margin-left: -20px;
+    p {
+      font-size: 0.85rem;
+      margin-bottom: 0em;
+    }
+  }
+
+  // Superscript
+  sup {
+    font-size: x-small;
+  }
+
+  // Footnote links
+  .footnotes {
+    font-size: 0.85rem;
+    line-height: 0.25em;
+    height: auto;
+  }
+
+
+  // Table
+  table {
+    width: 90%;
+    margin-bottom: 2em;  // space between last row, and content
+    border-collapse: collapse;
+    
+    // table header
+    th {
+      text-align: left;
+    }
+  }
+    
+  
 }
+

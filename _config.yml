@@ -40,7 +40,7 @@ permalink:      /:year-:month-:day/:title
 paginate:       5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec, vendor ]
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec, vendor, _publications/template.md ]
 
 # Disqus (Set to your disqus id)
 disqus:         nafeesb
