@@ -37,7 +37,7 @@
     margin: 0 0 1rem;
     text-align: justify;
   }
-
+  
   a:hover {
     text-decoration: underline;
   }
@@ -66,4 +66,21 @@
     padding: 0;
     margin: 0;
   }
+
+  // footnote list
+  li {
+    margin-left: -20px;
+    p {
+      font-size: 0.85rem;
+      margin-bottom: 0em;
+    }
+  }
+
+  // Footnote number size
+  .footnotes {
+    font-size: 12px;
+    line-height: 0.25em;
+    height: auto;
+  }
+
 }

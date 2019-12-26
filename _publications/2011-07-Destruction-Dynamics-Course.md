@@ -3,7 +3,6 @@ layout: publication
 title: Destruction and Dynamics in Film and Game Production
 authors: Erwin Coumans, Michael Baker, Nafees Bin Zafar, Mark Carlson, Brice Criswell, Takahiro Harada, Phil Knight
 journal: ACM SIGGRAPH 2011 Courses
-date: 2011-07-01
 puburl: https://pybullet.org/siggraph2011/
 pdfurl: http://bulletphysics.org/siggraph2011/nafees_siggraph2011.pdf
 ---
