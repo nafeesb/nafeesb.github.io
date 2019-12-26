@@ -1,5 +1,7 @@
 .post {
   padding: 3rem 0;
+  font-variant-ligatures: normal;
+  font-variant-numeric: stacked-fractions;
 
   &-info { // author and date info
     color: $default-tint;
@@ -16,7 +18,7 @@
     color: $default-shade;
     font-family: $sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     margin: 1rem 0;
     text-align: center;
   }
@@ -66,7 +68,7 @@
   }
 
   ol {
-    margin-top: -5px;
+    margin-top: -5px; // shrink vertical space above an ol
   }
   li {
     margin-left: -20px;
@@ -92,15 +94,21 @@
   // Table
   table {
     width: 90%;
-    margin-bottom: 2em;  // space between last row, and content
     border-collapse: collapse;
-    
     // table header
     th {
       text-align: left;
     }
+
+    // line between different sections in the same table
+    .cell-line {
+      border-top: 1px solid $default-shade;
+      display: block;
+      width: 70%;
+      margin: .4rem 0;  // move vertically toward the middle of the line 
+    }
   }
     
-  
 }
+
 

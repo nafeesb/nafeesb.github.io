@@ -23,11 +23,11 @@
   }
 
   &-line { // block line below title
-    border-top: 2px solid $default-tint;
+    border-top: 2px solid $default-shade;
     display: block;
     margin: 10px 0px;
     //margin: 0rem auto 3rem;
-    width: 10rem;
+    width: 100px;
     font-family: $sans-serif;
   }
 
