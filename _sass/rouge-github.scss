@@ -1,3 +1,5 @@
+$code-bold-weight: 500;
+
 .highlight table td { padding: 15px; }
 .highlight table pre { margin: 10; }
 .highlight .cm {
@@ -6,7 +8,7 @@
 }
 .highlight .cp {
   color: #999999;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .c1 {
   color: #999988;
@@ -14,7 +16,7 @@
 }
 .highlight .cs {
   color: #999999;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
   font-style: italic;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
@@ -50,7 +52,7 @@
   color: #555555;
 }
 .highlight .gs {
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .gu {
   color: #aaaaaa;
@@ -60,31 +62,31 @@
 }
 .highlight .kc {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .kd {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .kn {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .kp {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .kr {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .kt {
   color: #445588;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .k, .highlight .kv {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .mf {
   color: #009999;
@@ -151,29 +153,29 @@
 }
 .highlight .nc {
   color: #445588;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .no {
   color: #008080;
 }
 .highlight .nd {
   color: #3c5d5d;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .ni {
   color: #800080;
 }
 .highlight .ne {
   color: #990000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .nf, .highlight .fm {
   color: #990000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .nl {
   color: #990000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .nn {
   color: #555555;
@@ -195,11 +197,11 @@
 }
 .highlight .ow {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .o {
   color: #000000;
-  font-weight: bold;
+  font-weight: $code-bold-weight;
 }
 .highlight .w {
   color: #bbbbbb;

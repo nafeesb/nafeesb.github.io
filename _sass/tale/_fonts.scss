@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+         url('fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+         url('fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
+         local('Montserrat Regular');
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: italic;
+    src: url('fonts/Montserrat/Montserrat-Italic.woff') format('woff'),
+         url('fonts/Montserrat/Montserrat-Italic.woff2') format('woff2'),
+         url('fonts/Montserrat/Montserrat-Italic.ttf') format('ttf'),
+         local('Montserrat Italic');
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url('fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+         url('fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+         url('fonts/Montserrat/Montserrat-Medium.ttf') format('ttf'),
+         local('Montserrat Medium');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    src: url('fonts/Montserrat/Montserrat-MediumItalic.woff') format('woff'),
+         url('fonts/Montserrat/Montserrat-MediumItalic.woff2') format('woff2'),
+         url('fonts/Montserrat/Montserrat-MediumItalic.ttf') format('ttf'),
+         local('Montserrat Medium Italic');
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Source_Code_Pro/SourceCodePro-Regular.woff') format('woff'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Regular.woff2') format('woff2'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Regular.ttf') format('ttf'),
+         local('Source Code Pro');
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 400;
+    font-style: italic;
+    src: url('fonts/Source_Code_Pro/SourceCodePro-Italic.woff') format('woff'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Italic.woff2') format('woff2'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Italic.ttf') format('ttf'),
+         local('Source Code Pro Italic');
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 500;
+    font-style: normal;
+    src: url('fonts/Source_Code_Pro/SourceCodePro-Medium.woff') format('woff'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Medium.woff2') format('woff2'),
+         url('fonts/Source_Code_Pro/SourceCodePro-Medium.ttf') format('ttf'),
+         local('Source Code Pro Medium');
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 500;
+    font-style: italic;
+    src: url('fonts/Source_Code_Pro/SourceCodePro-MediumItalic.woff') format('woff'),
+         url('fonts/Source_Code_Pro/SourceCodePro-MediumItalic.woff2') format('woff2'),
+         url('fonts/Source_Code_Pro/SourceCodePro-MediumItalic.ttf') format('ttf'),
+         local('Source Code Pro Medium Italic');
+}

@@ -17,9 +17,11 @@ $nav-text-color: #bbb;
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-$monospaced: Menlo, Monaco, monospace;
+$sans-serif: 'Montserrat', sans-serif;
+$monospaced: 'Source Code Pro', Menlo, Monaco, monospace;
+
 $post-font-size: 16px;
+$code-font-size: 14px;
 
 
 @mixin box-sizing($type: border-box) {
