@@ -83,6 +83,19 @@ td {
   height: 80%;
 }
 
+.embed-instagram {
+  position: relative;
+  //height: 0;
+}
+
+.embed-instagram blockquote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  //width: 80%;
+  //height: 80%;
+}
+
 // Bangla language
 span.bangla {
   font-family: 'Hind Siliguri', sans-serif;
