@@ -18,3 +18,5 @@ collisions before applying pyramid coordinate constraints, we obtain a
 consistent result after the constraint projection. Dynamic simulation is also
 possible by modeling proper constraints and projection operators under the same
 framework.
+
+{% include youtube.html id="nDHKl1pP-q8" %}

@@ -14,3 +14,5 @@ restrictions, boasts fast collisions, maintains volume, is numerically-stable
 for large time steps, and supports dynamic plasticity. Our approach provides an
 intuitive solution for modeling the complex dynamics of deformable solids with a
 predictable and production-friendly workflow.
+
+{% include youtube.html id="zGG0bykMHbs" %}

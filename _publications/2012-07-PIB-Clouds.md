@@ -16,3 +16,5 @@ tones with strong reds and blues. To achieve this effect we created a system
 that took a rough digital sky set, created high resolution volumetric cloud
 representations, and allowed artistic lighting controls with multiple scattering
 effects.
+
+{% include youtube.html id="2CPc-sAUpdU" %}

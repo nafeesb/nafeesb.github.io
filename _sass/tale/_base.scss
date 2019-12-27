@@ -67,6 +67,22 @@ td {
   vertical-align: top;
 }
 
+// embedded youtube and vimeo videos
+.embed-webvideo {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed-webvideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+}
+
 // Bangla language
 span.bangla {
   font-family: 'Hind Siliguri', sans-serif;

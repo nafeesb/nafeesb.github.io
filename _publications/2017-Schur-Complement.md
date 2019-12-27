@@ -20,3 +20,5 @@ projection step of incompressible liquid and gas simulations. The results
 demonstrate considerable speedup over preconditioned conjugate gradient methods
 commonly employed to solve such problems, including a multigrid preconditioned
 conjugate gradient method.
+
+{% include youtube.html id="LUYELzYzqkE" %}

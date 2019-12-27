@@ -8,3 +8,5 @@ pdfurl: http://www.nafees.net/siggraph/ikarashi-Tron_sketch.pdf
 movieurl: http://www.nafees.net/siggraph/ikarashi-tron_derez-11.mov
 ---
 This talk discusses how the derez effect in "Tron: Legacy" was created.
+
+{% include youtube.html id="skUqK9ATqds" %}
