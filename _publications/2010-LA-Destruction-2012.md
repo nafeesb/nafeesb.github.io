@@ -17,3 +17,5 @@ The talk presented an RBD simulation authoring system called "Drop". The
 software had a node-based workflow that was very useful for FX artists, and
 inspired many other developers and software packages. I received an [Academy
 Award for Technical Achievement](http://www.oscars.org/news/21-scientific-and-technical-achievements-be-honored-academy-awardsr) for this work.
+
+{% include youtube.html id="ILoHNFmrYzo" %}
