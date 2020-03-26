@@ -4,8 +4,8 @@ title: Cloud Modeling And Rendering for "Puss In Boots"
 authors: Brett Miller, Ken Museth, Devon Penney, Nafees Bin Zafar 
 journal: ACM SIGGRAPH 2012 Talks
 date: 2012-07-01
-pdfurl: http://www.nafees.net/siggraph/miller-PIB_clouds-12.pdf
-movieurl: http://www.nafees.net/siggraph/miller-PIB_clouds-12.mp4
+pdfurl: http://euler.nafees.net/siggraph/miller-PIB_clouds-12.pdf
+movieurl: http://euler.nafees.net/siggraph/miller-PIB_clouds-12.mp4
 ---
 The techniques and workflow used to create a very art-directed digital sky in
 the movie "Puss In Boots".  The story of DreamWorks Animation’s “Puss In Boots”

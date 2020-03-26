@@ -3,7 +3,7 @@ layout: publication
 title: Pyramid Coordinates for Deformation with Collision Handling
 journal: ACM SIGGRAPH 2016 Talks
 authors: Gene Lin, Nafees Bin Zafar, Junze Zhou, Edwin Ng
-pdfurl: http://www.nafees.net/siggraph/lin-pyramid_coord-2016.pdf
+pdfurl: http://euler.nafees.net/siggraph/lin-pyramid_coord-2016.pdf
 acmdl: 2927400
 ---
 

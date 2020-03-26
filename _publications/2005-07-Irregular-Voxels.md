@@ -3,7 +3,7 @@ layout: publication
 title: Cartesian Grid Fluid Simulation with Irregular Boundary Voxels
 authors: Doug Roble, Nafees Bin Zafar, Henrik Falt
 journal: ACM SIGGRAPH 2005 Sketches
-pdfurl: http://www.nafees.net/siggraph/sketch_0273.final.pdf
+pdfurl: http://euler.nafees.net/siggraph/sketch_0273.final.pdf
 acmdl: 1187279
 ---
 This sketch presents a relatively simple way to deal with partially filled fluid

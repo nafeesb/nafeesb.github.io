@@ -4,7 +4,7 @@ title: A Schur Complement Preconditioner for Scalable Parallel Fluid Simulation
 date: 2017-10-01
 journal: ACM Transactions on Graphics (TOG)
 authors: Jieyu Chu, Nafees Bin Zafar, Xubo Yang
-pdfurl: http://www.nafees.net/siggraph/chu-schur_complement-2017.pdf
+pdfurl: http://euler.nafees.net/siggraph/chu-schur_complement-2017.pdf
 acmdl: 3092818
 ---
 We present an algorithmically efficient and parallelized domain decomposition

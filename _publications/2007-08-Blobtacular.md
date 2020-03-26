@@ -3,7 +3,7 @@ layout: publication
 title: Blobtacular&#58; Surfacing Particle Systems in "Pirates of the Caribbean 3"
 authors: Ken Museth, Michael Clive, Nafees Bin Zafar
 journal: ACM SIGGRAPH 2007 Sketches
-pdfurl: http://www.nafees.net/siggraph/museth-blobtacular-07.pdf
+pdfurl: http://euler.nafees.net/siggraph/museth-blobtacular-07.pdf
 acmdl: 1278804
 ---
 The core of this sketch was about generating smooth surfaces from low density

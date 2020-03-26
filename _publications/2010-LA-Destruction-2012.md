@@ -3,7 +3,7 @@ layout: publication
 title: Destroying LA for "2012"
 authors: Nafees Bin Zafar, Dave Stephens, Marten Larsson, Ryo Sakaguchi, Michael Clive, Ram Sampath, Ken Museth, Dennis Blakey, Brian Gazdik, Robert Thomas
 journal: ACM SIGGRAPH 2010 Talks
-pdfurl: http://www.nafees.net/siggraph/binzafar-2012_LA_destruction-10.pdf
+pdfurl: http://euler.nafees.net/siggraph/binzafar-2012_LA_destruction-10.pdf
 acmdl: 1837059
 ---
 For the movie “2012”, Digital Domain was tasked with destroying its home city of

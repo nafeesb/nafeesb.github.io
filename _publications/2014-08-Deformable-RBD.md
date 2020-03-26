@@ -4,7 +4,7 @@ title: Elastic and Plastic Deformations with Rigid Body Dynamics
 authors: Jeff Budsberg, Nafees Bin Zafar, Mihai Alden
 journal: ACM SIGGRAPH 2014 Talks
 date: 2014-08-01
-pdfurl: http://www.nafees.net/siggraph/budsberg-deformable_solids.pdf
+pdfurl: http://euler.nafees.net/siggraph/budsberg-deformable_solids.pdf
 acmdl: 2614132
 ---
 We present a fast and robust method of simulating flexible materials that offers

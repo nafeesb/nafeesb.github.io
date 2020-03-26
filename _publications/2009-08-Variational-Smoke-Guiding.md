@@ -3,7 +3,7 @@ layout: publication
 title: Guiding of Smoke Animations Through Variational Coupling of Simulations at Different Resolutions
 authors: Michael B. Nielsen, Brian B. Christensen, Nafees Bin Zafar, Doug Roble, Ken Museth
 journal: Proceedings of the 2009 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA '09)
-pdfurl: http://www.nafees.net/siggraph/nielsen-variational_smoke-2009.pdf
+pdfurl: http://euler.nafees.net/siggraph/nielsen-variational_smoke-2009.pdf
 acmdl: 1599499
 ---
 We propose a novel approach to guiding of Eulerian-based smoke animations
